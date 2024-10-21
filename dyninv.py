@@ -9,9 +9,6 @@ import requests
 
 debug = 0
 
-# For added security you can remove credentials from here and read them from an encrypted source
-# cl_id =     'l76b0b05c680fc41123456789123456789'
-# cl_secret = 'b8f55b73cdc64f123456789123456789'
 
 def get_token():
     ''' Login to CloudIQ to get a token'''
