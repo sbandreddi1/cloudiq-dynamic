@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
 import os
-cl_id = os.environ['cl_id']
-cl_secret=os.environ['cl_secret']
 import argparse
 import json
 import requests
 
 debug = 0
-
+cl_id = os.environ['cl_id']
+cl_secret=os.environ['cl_secret']
 
 def get_token():
     ''' Login to CloudIQ to get a token'''
